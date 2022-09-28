@@ -1,0 +1,33 @@
+.Todolist {
+  background-color: rgb(123, 204, 224);
+  height: 1000px;
+  width: 700px;
+  border: 1px solid black;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.itemDone {
+  text-decoration: line-through;
+ text-decoration-style: solid;
+ text-decoration-color: rgb(15, 15, 15);
+  font-weight: 900;
+}
+
+.display {
+  display: flex;
+  color:  white;
+  width:  550px;
+  background-color: rgb(201, 106, 180);
+  height: 60px;
+  /* margin: 20px auto; */
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
